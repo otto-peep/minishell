@@ -7,7 +7,8 @@ HEAD = -I./include
 FLAGS = -Wall -Wextra -Werror
 
 FILE = main.c	\
-	   tools.c
+	   tools.c	\
+	   parser.c
 
 SRC = $(FILE:%c=$(PATH1)%c)
 
